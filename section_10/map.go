@@ -17,8 +17,8 @@ func main() {
 	//comma ok idiom
 	v, ok := m["Barnabas"]
 
-	fmt.Println(v)
-	fmt.Println(ok)
+	fmt.Println("v", v)
+	fmt.Println("ok", ok)
 
 	if v, ok := m["James"]; ok {
 		fmt.Println("THIS IS THE IF PRINT", v)

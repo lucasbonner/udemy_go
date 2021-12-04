@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	x := []int{4, 5, 6, 7, 8, 42}
+	x := []int{2, 3, 4, 28, 29, 88, 80}
 	fmt.Println(x)
 	x = append(x, 77, 88, 99, 1014)
 	fmt.Println(x)
